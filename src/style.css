@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background: rgb(5,19,103);
+    background: linear-gradient(0deg, #5902EC 11%, #270082 60%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title{
+    padding: 20px;
+    color: white;
+}
+
+.list-group-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.complete{
+    text-decoration: line-through;
+}
+
+.todoList{
+    align-items: center;
+}
+
+
+
+.form-group{
+    border: 3px solid #F2C9E1;
+}
+
+
+.btn-primary{
+    border: 2px solid #F2C9E1;
+    background-color: #F2C9E1;
+    color: black;
+}
+
+.btn-primary:hover{
+    background-color: #E04DB0;
+    border: 2px solid #E04DB0;
+    color: #F2C9E1;
+}
+
+.card{
+    width: 50rem;
+}
+
